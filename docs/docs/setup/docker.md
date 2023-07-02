@@ -17,7 +17,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - "~/Downoads/openbooks:/books"
+      - "~/Downloads/openbooks:/books"
     command: --persist --name
     environment:
       - BASE_PATH=/openbooks/
